@@ -3,7 +3,7 @@ html{
 }
 
 body {
-  font-family:'Poppins', 'sans-serif';
+  font-family: 'Space Mono', monospace;
   background-image: url("../images/background2.jpeg");
   background-color: #FFFFFF;
   font-size: 18px;
@@ -49,11 +49,22 @@ a:link, a:visited {
 }
   
 h1{
-    font-weight: bolder;
-    font-size: 30px;
-    text-decoration: underline;
-    text-align: center;
-    margin: 5px;
+  font-weight: bolder;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+  margin: 5px;
+}
+
+main > p{
+  text-align: left;
+  margin: 20px;
+}
+
+main > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main > div{
@@ -68,6 +79,7 @@ main > div{
 }
 
 div > h2{
+  font-family: 'Inknut Antiqua', serif;
   font-size: 25px;
   margin: 5px;
 }
@@ -80,12 +92,17 @@ div > p{
   margin: 10px;
 }
 
+div > img{
+  width: 250px;
+  height: 180px;
+}
+
 footer{
   display: inline-block;
   position: relative;
-  top: 10px;
   width: 100vw;
   text-align: center;
+  
 }
 
 footer span{
@@ -95,20 +112,20 @@ footer span{
 
 form {
   border: 3px solid #f1f1f1;
-  }
+}
   
 legend{ 
   font-size: 125%;
   font-style:italic;
   text-transform: uppercase;
   text-align: center;
-  }
+}
   
 label{
   display: inline-block;
   margin-right:10px;
   width:15%;
-  }
+}
 
 input {
   width: 100%;
