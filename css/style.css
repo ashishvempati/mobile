@@ -65,6 +65,7 @@ main > img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 350px;
 }
 
 main > div{
@@ -102,7 +103,6 @@ footer{
   position: relative;
   width: 100vw;
   text-align: center;
-  
 }
 
 footer span{
@@ -171,6 +171,19 @@ input[type=submit]:hover {
   opacity: 0.8;
 }
   
+
+@keyframes startanimation {
+  0%   {width: 25px; opacity: 0;}
+  100%  {width: 350px; opacity: 1;}
+}
+
+#profile_pic {
+  animation-name: startanimation;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+}
+
+
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (min-width: 770px) {
   a.skip:focus{
@@ -207,8 +220,9 @@ input[type=submit]:hover {
   }
 
    /*Turn off transition*/
-  a.skip {
+  a.skip, #profile_pic {
     -webkit-transition: initial; /* sets to default setting */
     transition: initial; /* sets to default setting */
-   }
+    animation-duration: initial;
+  }
 }
