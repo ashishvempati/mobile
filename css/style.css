@@ -147,6 +147,7 @@ form {
   margin: 3vw;
   background-color: #2aabb4c7;
   max-width: 750px;
+  text-align: center;
 }
   
 legend{ 
@@ -160,13 +161,13 @@ legend{
 label{
   display: inline-block;
   margin-left: 10px;
-  margin-right: 45px;
+  margin-right: 55px;
   width: 15%;
   text-align: center;
 }
 
 input {
-  width: 60vw;
+  width: 50vw;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -176,7 +177,7 @@ input {
 }
   
 textarea{
-  width: 60vw;
+  width: 50vw;
   height: 35vh;
   padding: 12px 20px;
   margin: 8px 0px;
