@@ -85,7 +85,7 @@ main > img{
 
 .card_container{
   display: grid;
-  max-width: 400px;
+  width: 300px;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   row-gap: 5px;
@@ -147,7 +147,6 @@ form {
   border: 3px solid #000000;
   margin: 3vw;
   background-color: #2aabb4c7;
-  max-width: 750px;
   text-align: center;
 }
   
@@ -227,6 +226,7 @@ input[type=submit]:hover {
 
   form{
     margin: 0 auto;
+    width: 650px;
   }
 
   input{
