@@ -207,14 +207,16 @@ input[type=submit]:hover {
   
 
 @keyframes startanimation {
-  0%   {width: 25px; opacity: 0;}
-  100%  {width: 350px; opacity: 1;}
+  0%   {width: 25px; opacity: 0; border-color: #ff0000}
+  100%  {width: 350px; opacity: 1; border-color: #0000ff;}
 }
+
 
 #profile_pic {
   animation-name: startanimation;
   animation-duration: 2.5s;
   animation-iteration-count: 1;
+  border: 15px solid blue;
 }
 
 @media screen and (min-width: 700px) {
